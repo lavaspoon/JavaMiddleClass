@@ -1,0 +1,51 @@
+[다형성 시작]
+> 부모는 자식이 누구인지 모른다.
+
+> 자식은 참조변수를 찾아 자신의 객체를 찾고 자신의 객체가 아니면, 부모객체를 찾는다.
+
+> 부모 타입의 변수가 자식 인스턴스를 참조한다.
+Parent poly = new Child();
+생성된 참조값을 Parent 타입의 변수 poly에 담음. (new Child() 는 메모리상에 Child 와 Parent를 둘다 생성함)
+
+Java에서 부모는 자식을 담을 수 있음을 증명함. 반대로 자식은 부모를 담을 수 없다.
+Parent poly = new Child();  [OK]
+Child child = new Parent(); [ERROR]
+
+하지만, 부모가 자식의 기능을 호출하지는 못한다.
+poly.childMethod(); [ERROR] 참조값을 통해 메모리에 생성된 Parent와 Child를 바라보게 되는데, poly의 타입인 Parent만 바라본다.
+-> 캐스팅 하여 해결 가능
+
+==> 결론 : 부모는 자식을 담을 수 있다!
+
+[다형성과 캐스팅]
+poly의 x001을 child에 대입 -> 자식은 부모타입을 품을 수 없다. -> 경고를 무시하고, 다운캐스팅 (기존 poly 변수는 Parent 타입을 그대로 유지됨) -> Child child = x001; (참조값)
+
+==> 결론 : 기존의 부모타입인 poly는 그대로 타입을 유지한채, poly의 참조값 [Parent, Child] x001을 child 변수에 대입한다. Child child 는 [Child, Parent] 모두 사용 가능하다.
+
+[캐스팅의 종류]
+일시적 다운캐스팅 - 해당 메서드를 호출하는 순간만 다운캐스팅
+((Child) poly).childMethod();
+참조값을 찾으러가는 순간에 임시로 타입을 Child 타입으로 바꿈
+
+Parent child1 = (Parent) child; //업캐스팅은 생략 가능함 (Parent) child
+Parent child2 = child; //업캐스팅 생략
+
+==> 결론 : 업캐스팅은 자주 등장하기 때문에 생략 가능하지만, 다운캐스팅의 경우 Java의 경고이다. 따라서 다운캐스팅은 책임을 개발자가 지겠다는 명시적 선언이 된다.
+
+[다운캐스팅과 주의점] - 중요
+다운캐스팅은 잘못하면 심각한 런타임 오류가 발생한다.
+
+==> 결론
+업캐스팅이 안전한 이유 : 자식 생성시 상위를 포함하여 메모리에 [Parent, Child] 모두 생성되어, 안전함. 절대 에러 발생하지 않음
+다운캐스팅이 위험한 이유 : 부모 타입으로 생성되었을 경우, 자식은 포함 하지 않아서[Parent]. 다운캐스팅 경우, 런타임 에러가 발생함.
+Parent parent1 = new Child(); // 메모리 -> [Parent, Child]
+Child child1 = (Child) parent1; (O)
+
+Parent parent2 = new Parent(); // 메모리 -> [Parent]
+Child child2 = (Child) parent2; (X)
+
+[instanceof]
+
+[다형성과 메서드 오버라이딩]
+
+[정리]
