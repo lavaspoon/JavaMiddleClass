@@ -4,43 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdcfeff0-0da5-4dd0-a070-283f9110cbb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/CountMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/DecoData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/DecoDataMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/MathArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/MathArrayUtilsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/MaxCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/ProducOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/ProductOrderMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/ShoppingCartMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Super1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/extend/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/extend/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/extend/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/extend/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/extend/ShopMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/basic/CastingMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/basic/CastingMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/basic/CastingMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/basic/CastingMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/basic/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/basic/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/basic/PolyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/다형성.txt" afterDir="false" />
+    <list default="true" id="cdcfeff0-0da5-4dd0-a070-283f9110cbb7" name="Changes" comment="다형성 진행중">
+      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/basic/CastingMain5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/overriding/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/overriding/OverridingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/overriding/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex/polymorphism/다형성.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex/polymorphism/다형성.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +42,12 @@
     "Application.CastingMain1.executor": "Run",
     "Application.CastingMain2.executor": "Run",
     "Application.CastingMain4.executor": "Run",
+    "Application.CastingMain5.executor": "Run",
     "Application.CountMain.executor": "Run",
     "Application.DecoDataMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MathArrayUtilsMain.executor": "Run",
+    "Application.OverridingMain.executor": "Run",
     "Application.PolyMain.executor": "Run",
     "Application.ProductOrderMain2.executor": "Run",
     "Application.ShopMain.executor": "Run",
@@ -93,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CastingMain4">
+  <component name="RunManager" selected="Application.OverridingMain">
     <configuration name="CastingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex.polymorphism.basic.CastingMain1" />
       <module name="algo" />
@@ -133,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex.polymorphism.basic.PolyMain" />
+    <configuration name="CastingMain5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex.polymorphism.basic.CastingMain5" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -146,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex.extend.ShopMain" />
+    <configuration name="OverridingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex.polymorphism.overriding.OverridingMain" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex.extend.*" />
+          <option name="PATTERN" value="ex.polymorphism.overriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OverridingMain" />
+        <item itemvalue="Application.CastingMain5" />
         <item itemvalue="Application.CastingMain4" />
         <item itemvalue="Application.CastingMain2" />
         <item itemvalue="Application.CastingMain1" />
-        <item itemvalue="Application.PolyMain" />
-        <item itemvalue="Application.ShopMain" />
       </list>
     </recent_temporary>
   </component>
@@ -190,11 +162,24 @@
       <workItem from="1713978433703" duration="1826000" />
       <workItem from="1714604729134" duration="4530000" />
       <workItem from="1715005166807" duration="4391000" />
-      <workItem from="1717836371243" duration="5765000" />
+      <workItem from="1717836371243" duration="8456000" />
     </task>
+    <task id="LOCAL-00001" summary="다형성 진행중">
+      <option name="closed" value="true" />
+      <created>1717860381471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717860381471</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="다형성 진행중" />
+    <option name="LAST_COMMIT_MESSAGE" value="다형성 진행중" />
   </component>
 </project>
