@@ -4,121 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdcfeff0-0da5-4dd0-a070-283f9110cbb7" name="Changes" comment="다형성 완료">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/SimUduck/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/SimUduck/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/SimUduck/RedheadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Immu/ImmuMyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Immu/ImmuMyDateMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Immu/MyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Immu/MyDateMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Object/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/Object/RectangleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/claszz/ClassMetaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/ex02/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/ex02/LibraryMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/inner/ex1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/inner/ex1/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/inner/ex1/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/inner/ex2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/inner/ex2/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/lang/CharArrayMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/lang/TestString1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/local/LocalOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/local/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/nested/ex01/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/nested/ex01/NetworkMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/nested/ex01/NetworkMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/nested/ex02/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/nested/ex02/NetworkMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/nested/inner/InnerOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/nested/inner/InnerOuterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/nested/nested/NestedOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/nested/nested/NestedOuterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/car0/CarMain0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/car0/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/car0/K3Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/car0/Model3Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/car1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/car1/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/car1/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/car1/K3Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/car1/Model3Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex06/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex06/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex06/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex06/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex06/Fly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex06/SoundFlyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex1/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex1/AnimalSoundMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex1/AnimalSoundMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex1/AnimalSoundMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex1/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex1/Caw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex1/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex1/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex2/AnimalSoundMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex2/Caw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex2/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex2/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex2/InterfaceAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex3/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex3/InterfaceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex3/InterfaceB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/polymorphism/ex3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/test/AnonymousMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/test/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/test/OuterClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/test/OuterClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/test/OuterClass3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/test/OuterClassMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/test/OuterClassMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/test/OuterClassMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/wrapper/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/wrapper/MyIntegerMethodMain0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/wrapper/MyIntegerMethodMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/wrapper/WrapperClassMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/wrapper/WrapperUtilsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex/wrapper/WrapperVsPrimitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/CheckedCatchMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/CheckedThrowMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/MyCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/MyUncheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/UncheckedCatchMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/UncheckedThrowMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex0/MainV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex0/NetworkClientV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex0/NetworkServiceV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/MainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/NetworkClientV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/NetworkServiceV1_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/NetworkServiceV1_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/NetworkServiceV1_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/MainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientExceptionV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/MainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkClientV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkServiceV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/ConnecntExceptionV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/NetworkClientExceptionV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/SendExceptionV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/AuthGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Main2.java" afterDir="false" />
+    <list default="true" id="cdcfeff0-0da5-4dd0-a070-283f9110cbb7" name="Changes" comment="예외처리">
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/MainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkClientV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkClientV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkServiceV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkServiceV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/exception/ConnecntExceptionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/exception/NetworkClientExceptionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/exception/SendExceptionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex1/BoxMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex1/GenericBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex2/AnimalMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex2/AnimalMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex2/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex4/AnimalMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex4/AnimalMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex4/ComplexBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex4/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex4/MethodMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex4/MethodMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex5/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex5/WildCardEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex5/WildCardMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex5/WildCardMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/practice2/Shuttle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/practice2/ShuttleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/practice2/UnitPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/practice2/UnitUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/practice2/UnitUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/practice2/unit/BioUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/practice2/unit/Marine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/practice2/unit/Zealot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/practice2/unit/Zergling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +60,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lavaspoon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lavaspoon/JavaMiddleClass.git&quot;,
+    &quot;accountId&quot;: &quot;1e30cbe0-7790-4741-9d4e-de1f5f56e36a&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -150,10 +83,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnimalMain2.executor": "Run",
+    "Application.AnimalMainV1.executor": "Run",
+    "Application.AnimalMainV2.executor": "Run",
     "Application.AnimalSoundMain.executor": "Run",
     "Application.AnimalSoundMain1.executor": "Run",
     "Application.AnimalSoundMain3.executor": "Run",
     "Application.AnonymousMain.executor": "Run",
+    "Application.BoxMain3.executor": "Run",
     "Application.CarMain.executor": "Run",
     "Application.CarMain0.executor": "Run",
     "Application.CastingMain1.executor": "Run",
@@ -176,7 +113,10 @@
     "Application.MainV1.executor": "Run",
     "Application.MainV2.executor": "Run",
     "Application.MainV3.executor": "Run",
+    "Application.MainV4.executor": "Run",
     "Application.MathArrayUtilsMain.executor": "Run",
+    "Application.MethodMain1.executor": "Run",
+    "Application.MethodMain3.executor": "Run",
     "Application.MyDateMain.executor": "Run",
     "Application.MyIntegerMethodMain0.executor": "Run",
     "Application.MyIntegerMethodMain1.executor": "Run",
@@ -191,11 +131,14 @@
     "Application.RectangleMain.executor": "Run",
     "Application.ShopMain.executor": "Run",
     "Application.ShoppingCartMain.executor": "Run",
+    "Application.ShuttleTest.executor": "Run",
     "Application.SoundFlyMain.executor": "Run",
     "Application.Super1Main.executor": "Run",
     "Application.TestString1.executor": "Run",
     "Application.UncheckedCatchMain.executor": "Run",
     "Application.UncheckedThrowMain.executor": "Run",
+    "Application.UnitUtilTest.executor": "Run",
+    "Application.WildCardMain1.executor": "Run",
     "Application.WrapperClassMain.executor": "Run",
     "Application.WrapperUtilsMain.executor": "Run",
     "Application.WrapperVsPrimitive.executor": "Run",
@@ -213,6 +156,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -225,20 +169,20 @@
       <recent name="$PROJECT_DIR$/src/ex/polymorphism/ex2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="generic.ex5" />
+      <recent name="exception.ex4" />
       <recent name="exception.ex3" />
       <recent name="exception.ex2" />
       <recent name="exception.ex1" />
-      <recent name="ex.inner.ex2" />
-      <recent name="ex.nested.ex02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainV3">
-    <configuration name="CheckedThrowMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.basic.checked.CheckedThrowMain" />
+  <component name="RunManager" selected="Application.ShuttleTest">
+    <configuration name="AnimalMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.ex2.AnimalMainV1" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.basic.checked.*" />
+          <option name="PATTERN" value="generic.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ex2.MainV2" />
+    <configuration name="AnimalMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.ex2.AnimalMainV2" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.ex2.*" />
+          <option name="PATTERN" value="generic.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ex3.MainV3" />
+    <configuration name="ShuttleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.practice2.ShuttleTest" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.ex3.*" />
+          <option name="PATTERN" value="generic.practice2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncheckedCatchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.basic.unchecked.UncheckedCatchMain" />
+    <configuration name="UnitUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.practice2.UnitUtilTest" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.basic.unchecked.*" />
+          <option name="PATTERN" value="generic.practice2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncheckedThrowMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.basic.unchecked.UncheckedThrowMain" />
+    <configuration name="WildCardMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.ex5.WildCardMain1" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.basic.unchecked.*" />
+          <option name="PATTERN" value="generic.ex5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainV3" />
-        <item itemvalue="Application.MainV2" />
-        <item itemvalue="Application.UncheckedThrowMain" />
-        <item itemvalue="Application.UncheckedCatchMain" />
-        <item itemvalue="Application.CheckedThrowMain" />
+        <item itemvalue="Application.ShuttleTest" />
+        <item itemvalue="Application.UnitUtilTest" />
+        <item itemvalue="Application.WildCardMain1" />
+        <item itemvalue="Application.AnimalMainV2" />
+        <item itemvalue="Application.AnimalMainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +285,11 @@
       <workItem from="1721054590590" duration="3178000" />
       <workItem from="1721135553142" duration="3155000" />
       <workItem from="1721222833882" duration="6976000" />
-      <workItem from="1721309911871" duration="5073000" />
+      <workItem from="1721309911871" duration="6414000" />
+      <workItem from="1721401939429" duration="22000" />
+      <workItem from="1721401966114" duration="10173000" />
+      <workItem from="1721831657813" duration="2552000" />
+      <workItem from="1722004293786" duration="8833000" />
     </task>
     <task id="LOCAL-00001" summary="다형성 진행중">
       <option name="closed" value="true" />
@@ -359,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717863735925</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="예외처리">
+      <option name="closed" value="true" />
+      <created>1721315333354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721315333354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +324,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="다형성 진행중" />
     <MESSAGE value="다형성 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="다형성 완료" />
+    <MESSAGE value="예외처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="예외처리" />
   </component>
 </project>
