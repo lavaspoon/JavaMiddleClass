@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdcfeff0-0da5-4dd0-a070-283f9110cbb7" name="Changes" comment="디자인 패턴 초기화">
-      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/NodeMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/NodeMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/NodeMain3.java" afterDir="false" />
+    <list default="true" id="cdcfeff0-0da5-4dd0-a070-283f9110cbb7" name="Changes" comment="LinkedList">
+      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/MyLinkedListV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/MyLinkedListV1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/MyLinkedListV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/MyLinkedListV2Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +92,8 @@
     "Application.MyDateMain.executor": "Run",
     "Application.MyIntegerMethodMain0.executor": "Run",
     "Application.MyIntegerMethodMain1.executor": "Run",
+    "Application.MyLinkedListV1Main.executor": "Run",
+    "Application.MyLinkedListV2Main.executor": "Run",
     "Application.NestedOuterMain.executor": "Run",
     "Application.NetworkMain.executor": "Run",
     "Application.NodeMain1.executor": "Run",
@@ -151,13 +153,13 @@
       <recent name="exception.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NodeMain3">
-    <configuration name="ArrayMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.ArrayMain2" />
+  <component name="RunManager" selected="Application.MyLinkedListV2Main">
+    <configuration name="MyLinkedListV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.linkedlist.MyLinkedListV1Main" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="collection.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.HelloThreadMain" />
+    <configuration name="MyLinkedListV2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.linkedlist.MyLinkedListV2Main" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="collection.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLinkedListV2Main" />
+        <item itemvalue="Application.MyLinkedListV1Main" />
         <item itemvalue="Application.NodeMain3" />
         <item itemvalue="Application.NodeMain2" />
         <item itemvalue="Application.NodeMain1" />
-        <item itemvalue="Application.HelloThreadMain" />
-        <item itemvalue="Application.ArrayMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +270,7 @@
       <workItem from="1722263337632" duration="7137000" />
       <workItem from="1724683848464" duration="3817000" />
       <workItem from="1725197998277" duration="1049000" />
-      <workItem from="1725460785897" duration="2082000" />
+      <workItem from="1725460785897" duration="8025000" />
     </task>
     <task id="LOCAL-00001" summary="다형성 진행중">
       <option name="closed" value="true" />
@@ -310,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725198156535</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LinkedList">
+      <option name="closed" value="true" />
+      <created>1725462885165</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725462885166</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +343,7 @@
     <MESSAGE value="예외처리" />
     <MESSAGE value="제네릭, 와일드카드" />
     <MESSAGE value="디자인 패턴 초기화" />
-    <option name="LAST_COMMIT_MESSAGE" value="디자인 패턴 초기화" />
+    <MESSAGE value="LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList" />
   </component>
 </project>
