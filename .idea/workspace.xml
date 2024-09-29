@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdcfeff0-0da5-4dd0-a070-283f9110cbb7" name="Changes" comment="LinkedList">
-      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/MyLinkedListV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/MyLinkedListV1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/MyLinkedListV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/MyLinkedListV2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/linkedlist/MyLinkedListV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/MyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,93 +49,93 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnimalMain2.executor": "Run",
-    "Application.AnimalMainV1.executor": "Run",
-    "Application.AnimalMainV2.executor": "Run",
-    "Application.AnimalSoundMain.executor": "Run",
-    "Application.AnimalSoundMain1.executor": "Run",
-    "Application.AnimalSoundMain3.executor": "Run",
-    "Application.AnonymousMain.executor": "Run",
-    "Application.ArrayMain.executor": "Run",
-    "Application.ArrayMain2.executor": "Run",
-    "Application.BoxMain3.executor": "Run",
-    "Application.CarMain.executor": "Run",
-    "Application.CarMain0.executor": "Run",
-    "Application.CastingMain1.executor": "Run",
-    "Application.CastingMain2.executor": "Run",
-    "Application.CastingMain4.executor": "Run",
-    "Application.CastingMain5.executor": "Run",
-    "Application.CharArrayMain.executor": "Run",
-    "Application.CheckedCatchMain.executor": "Run",
-    "Application.CheckedThrowMain.executor": "Run",
-    "Application.ClassMetaMain.executor": "Run",
-    "Application.CountMain.executor": "Run",
-    "Application.DecoDataMain.executor": "Run",
-    "Application.HelloThreadMain.executor": "Run",
-    "Application.ImmuMyDateMain.executor": "Run",
-    "Application.InnerOuterMain.executor": "Run",
-    "Application.LibraryMain.executor": "Run",
-    "Application.LocalOuter.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Run",
-    "Application.MainV0.executor": "Run",
-    "Application.MainV1.executor": "Run",
-    "Application.MainV2.executor": "Run",
-    "Application.MainV3.executor": "Run",
-    "Application.MainV4.executor": "Run",
-    "Application.MathArrayUtilsMain.executor": "Run",
-    "Application.MethodMain1.executor": "Run",
-    "Application.MethodMain3.executor": "Run",
-    "Application.MyDateMain.executor": "Run",
-    "Application.MyIntegerMethodMain0.executor": "Run",
-    "Application.MyIntegerMethodMain1.executor": "Run",
-    "Application.MyLinkedListV1Main.executor": "Run",
-    "Application.MyLinkedListV2Main.executor": "Run",
-    "Application.NestedOuterMain.executor": "Run",
-    "Application.NetworkMain.executor": "Run",
-    "Application.NodeMain1.executor": "Run",
-    "Application.NodeMain2.executor": "Run",
-    "Application.NodeMain3.executor": "Run",
-    "Application.OuterClassMain1.executor": "Run",
-    "Application.OuterClassMain2.executor": "Run",
-    "Application.OuterClassMain3.executor": "Run",
-    "Application.OverridingMain.executor": "Run",
-    "Application.PolyMain.executor": "Run",
-    "Application.ProductOrderMain2.executor": "Run",
-    "Application.RectangleMain.executor": "Run",
-    "Application.ShopMain.executor": "Run",
-    "Application.ShoppingCartMain.executor": "Run",
-    "Application.ShuttleTest.executor": "Run",
-    "Application.SoundFlyMain.executor": "Run",
-    "Application.Super1Main.executor": "Run",
-    "Application.TestString1.executor": "Run",
-    "Application.UncheckedCatchMain.executor": "Run",
-    "Application.UncheckedThrowMain.executor": "Run",
-    "Application.UnitUtilTest.executor": "Run",
-    "Application.WildCardMain1.executor": "Run",
-    "Application.WrapperClassMain.executor": "Run",
-    "Application.WrapperUtilsMain.executor": "Run",
-    "Application.WrapperVsPrimitive.executor": "Run",
-    "Application.ex.inner.ex2.CarMain.executor": "Run",
-    "Application.ex.nested.ex02.NetworkMain.executor": "Run",
-    "Application.ex.polymorphism.ex2.AnimalSoundMain3.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lavaspoon/Desktop/algo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnimalMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalSoundMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalSoundMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalSoundMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarMain0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CastingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CastingMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CastingMain4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CastingMain5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharArrayMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckedCatchMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckedThrowMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassMetaMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecoDataMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmuMyDateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerOuterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalOuter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MathArrayUtilsMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyDateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerMethodMain0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerMethodMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyLinkedListV1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyLinkedListV2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedOuterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NetworkMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OuterClassMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OuterClassMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OuterClassMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverridingMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PolyMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductOrderMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShopMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShoppingCartMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShuttleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SoundFlyMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Super1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestString1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UncheckedCatchMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UncheckedThrowMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnitUtilTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WildCardMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperClassMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperUtilsMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperVsPrimitive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex.inner.ex2.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex.nested.ex02.NetworkMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex.polymorphism.ex2.AnimalSoundMain3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lavaspoon/Desktop/algo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ex.local" />
@@ -270,7 +269,9 @@
       <workItem from="1722263337632" duration="7137000" />
       <workItem from="1724683848464" duration="3817000" />
       <workItem from="1725197998277" duration="1049000" />
-      <workItem from="1725460785897" duration="8025000" />
+      <workItem from="1725460785897" duration="8034000" />
+      <workItem from="1726665168372" duration="1653000" />
+      <workItem from="1727621570286" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="다형성 진행중">
       <option name="closed" value="true" />
@@ -320,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725462885166</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LinkedList">
+      <option name="closed" value="true" />
+      <created>1725549965615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725549965615</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
