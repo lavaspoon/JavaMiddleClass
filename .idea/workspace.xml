@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdcfeff0-0da5-4dd0-a070-283f9110cbb7" name="Changes" comment="List">
-      <change afterPath="$PROJECT_DIR$/src/collection/list/BatchProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/list/MyLinkedList.java" afterDir="false" />
+    <list default="true" id="cdcfeff0-0da5-4dd0-a070-283f9110cbb7" name="Changes" comment="추상적인 MyList에 의존하도록 리펙토링 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/list/BatchProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/list/BatchProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +272,7 @@
       <workItem from="1725197998277" duration="1049000" />
       <workItem from="1725460785897" duration="8034000" />
       <workItem from="1726665168372" duration="1653000" />
-      <workItem from="1727621570286" duration="1551000" />
+      <workItem from="1727621570286" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="다형성 진행중">
       <option name="closed" value="true" />
@@ -339,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727621940773</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="추상적인 MyList에 의존하도록 리펙토링 완료">
+      <option name="closed" value="true" />
+      <created>1727623247641</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727623247641</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +371,7 @@
     <MESSAGE value="디자인 패턴 초기화" />
     <MESSAGE value="LinkedList" />
     <MESSAGE value="List" />
-    <option name="LAST_COMMIT_MESSAGE" value="List" />
+    <MESSAGE value="추상적인 MyList에 의존하도록 리펙토링 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="추상적인 MyList에 의존하도록 리펙토링 완료" />
   </component>
 </project>
